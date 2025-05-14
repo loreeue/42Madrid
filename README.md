@@ -50,7 +50,7 @@ Exploración visual de fractales usando **MiniLibX**. Soporta Mandelbrot y Julia
 
 Simulación del problema de los filósofos comensales, un clásico de concurrencia en programación. Implementado con hilos y mutexes para gestionar la sincronización y evitar condiciones de carrera o deadlocks.
 
-#### [Minishell](https://github.com/jpuerto-loruzqui/42Minishell) - En proceso
+#### [Minishell](https://github.com/jpuerto-loruzqui/42Minishell) - 100/100
 
 Recreación simplificada de un shell de Unix, que interpreta y ejecuta comandos en una línea de entrada. Soporta pipes, redirecciones, variables de entorno, manejo de señales, y ejecución de comandos built-in como cd, echo, export, entre otros.
 
