@@ -55,11 +55,23 @@ Simulación del problema de los filósofos comensales, un clásico de concurrenc
 Recreación simplificada de un shell de Unix, que interpreta y ejecuta comandos en una línea de entrada. Soporta pipes, redirecciones, variables de entorno, manejo de señales, y ejecución de comandos built-in como cd, echo, export, entre otros.
 
 ### 🎯 MILESTONE 04
-#### [CPP-00]() - En proceso
+#### [CPP-00](https://github.com/loreeue/Cpps) - 80/100
 
 Introducción a la programación orientada a objetos con C++98. Incluye conceptos como namespaces, clases, funciones miembro, static, const, y manejo básico de streams de entrada/salida.
 Ejercicios:
 
-	- Megaphone (ex00): Convierte la entrada a mayúsculas.
-	- PhoneBook (ex01): Agenda de contactos con límite de 8 registros.
-	- The Job Of Your Dreams (ex02): Reconstrucción de una clase Account.
+* **Megaphone (ex00):** Convierte la entrada a mayúsculas.
+* **PhoneBook (ex01):** Agenda de contactos con límite de 8 registros.
+
+#### [CPP-01](https://github.com/loreeue/Cpps) - 100/100
+
+Profundización en la gestión de memoria, referencias, punteros y estructuras de control. Este módulo introduce el uso de `new/delete`, referencias, punteros a funciones miembro y la instrucción `switch`, todo dentro del estándar C++98.
+Ejercicios:
+
+* **BraiiiiiiinnnzzzZ (ex00):** Clase `Zombie` con método `announce()`. Se practica la creación en stack vs heap.
+* **Moar brainz! (ex01):** Función `zombieHorde()` que genera múltiples zombies en memoria dinámica.
+* **HI THIS IS BRAIN (ex02):** Comparación de punteros y referencias con una string.
+* **Unnecessary violence (ex03):** Clases `HumanA` y `HumanB` que usan un `Weapon` con referencia o puntero.
+* **Sed is for losers (ex04):** Reemplazo manual de texto en archivos, sin usar `replace()`.
+* **Harl 2.0 (ex05):** Clase `Harl` con niveles de log, implementado usando punteros a funciones miembro.
+* **Harl filter (ex06):** Filtro de mensajes según nivel, usando `switch`.
