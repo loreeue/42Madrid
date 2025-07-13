@@ -55,6 +55,12 @@ Simulación del problema de los filósofos comensales, un clásico de concurrenc
 Recreación simplificada de un shell de Unix, que interpreta y ejecuta comandos en una línea de entrada. Soporta pipes, redirecciones, variables de entorno, manejo de señales, y ejecución de comandos built-in como cd, echo, export, entre otros.
 
 ### 🎯 MILESTONE 04
+#### [Netpractice](https://github.com/loreeue/Netpractice) - 100/100
+
+Ejercicios interactivos para comprender los fundamentos del networking, enfocados principalmente en el direccionamiento y configuración de redes IP. Se resuelven 10 niveles dentro de una interfaz web, ajustando campos como direcciones IP, máscaras de subred y gateways para lograr una red funcional.
+
+Cada nivel simula una red con errores, y el objetivo es diagnosticar y corregir la configuración hasta que sea válida. Este repositorio contiene las configuraciones exportadas para cada uno de los niveles resueltos.
+
 #### [CPP-00](https://github.com/loreeue/Cpps) - 80/100
 
 Introducción a la programación orientada a objetos con C++98. Incluye conceptos como namespaces, clases, funciones miembro, static, const, y manejo básico de streams de entrada/salida.
