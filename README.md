@@ -81,3 +81,13 @@ Ejercicios:
 * **Sed is for losers (ex04):** Reemplazo manual de texto en archivos, sin usar `replace()`.
 * **Harl 2.0 (ex05):** Clase `Harl` con niveles de log, implementado usando punteros a funciones miembro.
 * **Harl filter (ex06):** Filtro de mensajes según nivel, usando `switch`.
+
+#### [CPP-02](https://github.com/loreeue/Cpps) - 100/100
+
+Introducción al **polimorfismo ad-hoc**, **sobrecarga de operadores** y la **forma canónica ortodoxa** de clases en C++98. Este módulo profundiza en la construcción de clases robustas y reutilizables, aplicando buenas prácticas de diseño orientado a objetos. Se implementa una clase de números en punto fijo con operadores personalizados y lógica geométrica.
+Ejercicios:
+
+* **My First Class in Orthodox Canonical Form (ex00):** Clase `Fixed` en forma canónica, con acceso a valores internos.
+* **Towards a more useful fixed-point number class (ex01):** Conversión entre `int`, `float` y sobrecarga del operador `<<`.
+* **Now we’re talking (ex02):** Sobrecarga de operadores aritméticos, de comparación e incremento. Métodos estáticos `min` y `max`.
+* **BSP (ex03):** Clase `Point` y función `bsp()` para determinar si un punto está dentro de un triángulo usando coordenadas baricéntricas.
