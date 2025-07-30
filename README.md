@@ -91,3 +91,14 @@ Ejercicios:
 * **Towards a more useful fixed-point number class (ex01):** Conversión entre `int`, `float` y sobrecarga del operador `<<`.
 * **Now we’re talking (ex02):** Sobrecarga de operadores aritméticos, de comparación e incremento. Métodos estáticos `min` y `max`.
 * **BSP (ex03):** Clase `Point` y función `bsp()` para determinar si un punto está dentro de un triángulo usando coordenadas baricéntricas.
+
+#### [CPP-03](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo se centra en la **herencia en C++98**, aplicando los principios de programación orientada a objetos. A través de clases derivadas y herencia múltiple, se exploran conceptos como el encadenamiento de constructores, el uso de `virtual` implícito, ocultamiento de nombres y ambigüedad en la herencia.
+
+Ejercicios:
+
+* **Aaaaand... OPEN! (ex00):** Clase `ClapTrap` con atributos de estado (`hitPoints`, `energyPoints`, `attackDamage`) y métodos básicos (`attack`, `takeDamage`, `beRepaired`). Se imprime información detallada en cada acción y constructor/destructor.
+* **Serena, my love! (ex01):** Clase `ScavTrap`, derivada de `ClapTrap`. Modifica atributos por defecto y añade el método especial `guardGate()`. Se refuerza el concepto de herencia simple.
+* **Repetitive work (ex02):** Clase `FragTrap`, otra derivada de `ClapTrap`, con valores únicos y el método especial `highFivesGuys()`. Se enfatiza el constructor/destructor chaining.
+* **Now it’s weird! (ex03):** Clase `DiamondTrap`, que **hereda de `ScavTrap` y `FragTrap`**. Usa herencia múltiple y atributos combinados. Implementa el método `whoAmI()` que muestra tanto su nombre como el de su base `ClapTrap`. Maneja ambigüedad de herencia y sobrescritura.
