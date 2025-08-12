@@ -64,6 +64,7 @@ Cada nivel simula una red con errores, y el objetivo es diagnosticar y corregir 
 #### [CPP-00](https://github.com/loreeue/Cpps) - 80/100
 
 Introducción a la programación orientada a objetos con C++98. Incluye conceptos como namespaces, clases, funciones miembro, static, const, y manejo básico de streams de entrada/salida.
+
 Ejercicios:
 
 * **Megaphone (ex00):** Convierte la entrada a mayúsculas.
@@ -72,6 +73,7 @@ Ejercicios:
 #### [CPP-01](https://github.com/loreeue/Cpps) - 100/100
 
 Profundización en la gestión de memoria, referencias, punteros y estructuras de control. Este módulo introduce el uso de `new/delete`, referencias, punteros a funciones miembro y la instrucción `switch`, todo dentro del estándar C++98.
+
 Ejercicios:
 
 * **BraiiiiiiinnnzzzZ (ex00):** Clase `Zombie` con método `announce()`. Se practica la creación en stack vs heap.
@@ -85,6 +87,7 @@ Ejercicios:
 #### [CPP-02](https://github.com/loreeue/Cpps) - 100/100
 
 Introducción al **polimorfismo ad-hoc**, **sobrecarga de operadores** y la **forma canónica ortodoxa** de clases en C++98. Este módulo profundiza en la construcción de clases robustas y reutilizables, aplicando buenas prácticas de diseño orientado a objetos. Se implementa una clase de números en punto fijo con operadores personalizados y lógica geométrica.
+
 Ejercicios:
 
 * **My First Class in Orthodox Canonical Form (ex00):** Clase `Fixed` en forma canónica, con acceso a valores internos.
@@ -102,3 +105,17 @@ Ejercicios:
 * **Serena, my love! (ex01):** Clase `ScavTrap`, derivada de `ClapTrap`. Modifica atributos por defecto y añade el método especial `guardGate()`. Se refuerza el concepto de herencia simple.
 * **Repetitive work (ex02):** Clase `FragTrap`, otra derivada de `ClapTrap`, con valores únicos y el método especial `highFivesGuys()`. Se enfatiza el constructor/destructor chaining.
 * **Now it’s weird! (ex03):** Clase `DiamondTrap`, que **hereda de `ScavTrap` y `FragTrap`**. Usa herencia múltiple y atributos combinados. Implementa el método `whoAmI()` que muestra tanto su nombre como el de su base `ClapTrap`. Maneja ambigüedad de herencia y sobrescritura.
+
+#### [CPP-04](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo profundiza en el **polimorfismo por subtipado**, el uso de **clases abstractas**, y la simulación de **interfaces en C++98**. Se implementan jerarquías de clases con funciones virtuales puras, uso correcto de `new`/`delete`, y copias profundas para evitar errores de memoria.
+
+Ejercicios:
+
+* **Polimorfismo básico (ex00):** Clases `Animal`, `Dog`, `Cat` con `makeSound()` virtual. Se demuestra el polimorfismo mediante punteros a clase base. También se implementa `WrongAnimal` y `WrongCat` para ilustrar el error al omitir `virtual`.
+
+* **Brainstorming (ex01):** Introducción de la clase `Brain`, que contiene 100 ideas. `Dog` y `Cat` manejan su propio `Brain*`. Se implementan destructores adecuados y **copias profundas** para evitar compartir memoria entre instancias.
+
+* **Clase abstracta (ex02):** `Animal` se convierte en clase abstracta al incluir `makeSound() = 0`. Se impide instanciación directa y se mantiene la funcionalidad previa mediante clases derivadas.
+
+* **Interfaces y recapitulación (ex03):** Sistema tipo RPG con materias mágicas (`AMateria`, `Ice`, `Cure`). Se implementan las interfaces `ICharacter` y `IMateriaSource`, y sus clases concretas `Character` y `MateriaSource`. Se prueba el uso de `clone()`, `equip()`, `use()` y la gestión correcta de memoria y copias profundas.
