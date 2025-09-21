@@ -119,3 +119,17 @@ Ejercicios:
 * **Clase abstracta (ex02):** `Animal` se convierte en clase abstracta al incluir `makeSound() = 0`. Se impide instanciación directa y se mantiene la funcionalidad previa mediante clases derivadas.
 
 * **Interfaces y recapitulación (ex03):** Sistema tipo RPG con materias mágicas (`AMateria`, `Ice`, `Cure`). Se implementan las interfaces `ICharacter` y `IMateriaSource`, y sus clases concretas `Character` y `MateriaSource`. Se prueba el uso de `clone()`, `equip()`, `use()` y la gestión correcta de memoria y copias profundas.
+
+#### [Cub3D](https://github.com/jpuerto-loruzqui/Cub3D) - 110/125
+
+Mi primer motor de **ray casting** con **MiniLibX**, inspirado en *Wolfenstein 3D*. Permite recorrer un laberinto en primera persona con paredes texturizadas y control de la cámara en tiempo real.
+
+Características principales:
+* Renderizado 3D con texturas según orientación (N/S/E/O).
+* Colores configurables para suelo y techo.
+* Controles fluidos con `W/A/S/D` y flechas izquierda/derecha.
+* Parsing robusto del archivo `.cub` para mapas y configuraciones.
+
+Bonus implementados:
+* ✅ Colisiones con paredes.
+* ✅ Minimap en tiempo real.
