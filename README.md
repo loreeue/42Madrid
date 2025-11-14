@@ -133,3 +133,12 @@ Características principales:
 Bonus implementados:
 * ✅ Colisiones con paredes.
 * ✅ Minimap en tiempo real.
+
+---
+
+### 🎯 MILESTONE 05
+
+#### [Inception](https://github.com/loreeue/Inception) - 100/100
+
+Proyecto dedicado a la **containerización con Docker**. Se construye una infraestructura completa formada por **Nginx**, **WordPress** y **MariaDB**, cada uno en su propio contenedor, gestionados mediante **Docker Compose**.
+Incluye volúmenes para persistencia, redes internas, y scripts personalizados para inicializar y configurar cada servicio.
