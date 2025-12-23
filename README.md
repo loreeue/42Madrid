@@ -142,3 +142,24 @@ Bonus implementados:
 
 Proyecto dedicado a la **containerización con Docker**. Se construye una infraestructura completa formada por **Nginx**, **WordPress** y **MariaDB**, cada uno en su propio contenedor, gestionados mediante **Docker Compose**.
 Incluye volúmenes para persistencia, redes internas, y scripts personalizados para inicializar y configurar cada servicio.
+
+Perfecto 👍
+Solo tienes que **añadir ft_irc en el milestone correcto (05)** manteniendo el mismo estilo que el resto del README. Te dejo el **bloque exacto listo para copiar y pegar**, ya redactado y coherente con lo que ya tienes.
+
+
+#### [IRC](https://github.com/ft-IRClive/ft_irc) - 96/100
+
+Implementación de un **servidor IRC** en **C++98**, siguiendo el protocolo definido en la **RFC 1459**. El servidor permite la conexión simultánea de múltiples clientes reales (como **HexChat** o `nc`) y la gestión completa de usuarios y canales.
+
+Características principales:
+
+* Servidor concurrente usando **sockets TCP**.
+* Multiplexación de I/O mediante **poll()**.
+* Autenticación completa (`PASS`, `NICK`, `USER`).
+* Gestión de canales y operadores.
+* Implementación de comandos IRC:
+
+  * `JOIN`, `PART`, `TOPIC`
+  * `MODE`, `INVITE`, `KICK`
+  * `PRIVMSG`, `WHO`, `QUIT`
+* Manejo correcto de desconexiones y errores estándar IRC.
