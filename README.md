@@ -163,3 +163,22 @@ Características principales:
   * `MODE`, `INVITE`, `KICK`
   * `PRIVMSG`, `WHO`, `QUIT`
 * Manejo correcto de desconexiones y errores estándar IRC.
+
+
+#### [CPP-05](https://github.com/loreeue/Cpps) - 80/100
+
+Este módulo se centra en el uso avanzado de **excepciones**, el diseño correcto de **jerarquías de clases**, y la aplicación práctica de **herencia, clases abstractas y polimorfismo** en C++98. Se introduce además el uso de **patrones de diseño simples**, como el **Factory**, y se refuerza la importancia del diseño orientado a responsabilidades.
+
+Ejercicios:
+
+* **Mommy, when I grow up, I want to be a bureaucrat! (ex00):**
+  Implementación de la clase `Bureaucrat`, con validación estricta de rangos y uso de excepciones (`GradeTooHighException`, `GradeTooLowException`). Se refuerza el concepto de invariantes de clase y el manejo de errores mediante `try/catch`.
+
+* **Form up, maggots! (ex01):**
+  Introducción de la clase `Form`, que interactúa con `Bureaucrat`. Se trabajan relaciones entre clases, control de permisos mediante grados, y propagación de excepciones. Se refuerza el principio de responsabilidad única.
+
+* **No, you need form 28B, not 28C... (ex02):**
+  `Form` se convierte en una **clase abstracta (`AForm`)**. Se implementan formularios concretos (`ShrubberyCreationForm`, `RobotomyRequestForm`, `PresidentialPardonForm`) que sobrescriben métodos virtuales. Se demuestra el **polimorfismo dinámico** y el uso correcto de destructores virtuales.
+
+* **At least this beats coffee-making (ex03):**
+  Implementación de la clase `Intern`, que actúa como una **fábrica de formularios**. Se aplica un patrón **Factory** para desacoplar la creación de objetos del código cliente, devolviendo punteros a `AForm` sin exponer las clases concretas.
