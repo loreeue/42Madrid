@@ -213,3 +213,21 @@ Este módulo se centra en el uso avanzado de **excepciones**, el diseño correct
   Implementación de la clase `Intern`, que actúa como una **fábrica de formularios**. Se aplica un patrón **Factory** para desacoplar la creación de objetos del código cliente, devolviendo punteros a `AForm` sin exponer las clases concretas.
 
 </details>
+
+#### [CPP-06](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo introduce el uso correcto de los **casts en C++98**, la conversión explícita de tipos y el **RTTI (Run-Time Type Identification)**. Se trabaja la diferencia entre conversiones seguras en tiempo de compilación y comprobaciones dinámicas en tiempo de ejecución.
+
+<details>
+<summary><strong>Ejercicios</strong></summary>
+
+* **Conversion of scalar types (ex00):**
+  Implementación de la clase `ScalarConverter`, no instanciable, con un método estático que detecta el tipo real de un literal (`char`, `int`, `float`, `double`) y lo convierte explícitamente a los demás tipos. Maneja pseudo-literales (`nan`, `inf`, etc.) y conversiones imposibles.
+
+* **Serialization (ex01):**
+  Clase `Serializer` que convierte un puntero a `uintptr_t` y viceversa. Se utiliza `reinterpret_cast` para demostrar la conversión entre direcciones de memoria y tipos enteros sin pérdida de información.
+
+* **Identify real type (ex02):**
+  Jerarquía simple (`Base`, `A`, `B`, `C`) para identificar el tipo real de un objeto usando `dynamic_cast`. Se compara el comportamiento del cast con punteros y con referencias, sin usar `typeid`.
+
+</details>
