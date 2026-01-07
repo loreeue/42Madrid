@@ -234,7 +234,7 @@ Este módulo introduce el uso correcto de los **casts en C++98**, la conversión
 
 ---
 
-#### [CPP-07](https://github.com/loreeue/Cpps) - 100/100
+#### [CPP-07](https://github.com/loreeue/Cpps) - 90/100
 
 Este módulo introduce el uso de **templates en C++98**, permitiendo escribir código genérico y reutilizable sin sacrificar seguridad de tipos. Se trabajan **funciones template**, **templates de clases**, y la correcta gestión de memoria y excepciones en estructuras genéricas, respetando la forma canónica ortodoxa.
 
