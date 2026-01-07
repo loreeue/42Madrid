@@ -231,3 +231,23 @@ Este módulo introduce el uso correcto de los **casts en C++98**, la conversión
   Jerarquía simple (`Base`, `A`, `B`, `C`) para identificar el tipo real de un objeto usando `dynamic_cast`. Se compara el comportamiento del cast con punteros y con referencias, sin usar `typeid`.
 
 </details>
+
+---
+
+#### [CPP-07](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo introduce el uso de **templates en C++98**, permitiendo escribir código genérico y reutilizable sin sacrificar seguridad de tipos. Se trabajan **funciones template**, **templates de clases**, y la correcta gestión de memoria y excepciones en estructuras genéricas, respetando la forma canónica ortodoxa.
+
+<details>
+<summary><strong>Ejercicios</strong></summary>
+
+* **Start with a few functions (ex00):**
+  Implementación de **funciones template** (`swap`, `min`, `max`) válidas para cualquier tipo que soporte operadores de comparación. Se refuerza el concepto de definición de templates en headers y la resolución en tiempo de compilación.
+
+* **Iter (ex01):**
+  Función template `iter` que aplica una función a cada elemento de un array. Se trabaja el soporte tanto para **arrays const como no const**, y el paso de funciones como parámetros genéricos.
+
+* **Array (ex02):**
+  Implementación de una **clase template `Array<T>`**, con gestión dinámica de memoria usando `new[]`, copia profunda, operador `[]` con control de límites mediante excepciones, y método `size()`. Se refuerza el diseño seguro de contenedores genéricos sin usar STL.
+
+</details>
