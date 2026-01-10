@@ -251,3 +251,23 @@ Este módulo introduce el uso de **templates en C++98**, permitiendo escribir c�
   Implementación de una **clase template `Array<T>`**, con gestión dinámica de memoria usando `new[]`, copia profunda, operador `[]` con control de límites mediante excepciones, y método `size()`. Se refuerza el diseño seguro de contenedores genéricos sin usar STL.
 
 </details>
+
+---
+
+#### [CPP-08](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo introduce el uso real de la **STL (Standard Template Library)** en C++98. Se trabajan **contenedores**, **iteradores** y **algoritmos genéricos**, entendiendo cómo se combinan para escribir código reutilizable, eficiente y bien abstraído.
+
+<details>
+<summary><strong>Ejercicios</strong></summary>
+
+* **Easy find (ex00):**
+  Implementación de la función template `easyfind`, que busca un `int` dentro de un contenedor STL genérico usando obligatoriamente algoritmos STL (`std::find`). Refuerza el uso de **iteradores** y algoritmos independientes del contenedor.
+
+* **Span (ex01):**
+  Clase `Span` que almacena hasta `N` enteros y calcula la menor (`shortestSpan`) y mayor (`longestSpan`) diferencia entre ellos. Uso de algoritmos STL como `std::sort`, `std::min_element` y `std::max_element`. Se implementa `addRange` para añadir múltiples valores usando rangos de iteradores.
+
+* **MutantStack (ex02):**
+  Clase template que hereda de `std::stack` y mantiene su comportamiento LIFO, añadiendo la posibilidad de iterar sobre sus elementos. Expone los iteradores del contenedor interno y permite recorrer la pila como un contenedor STL estándar, comparando su comportamiento con `std::list`.
+
+</details>
