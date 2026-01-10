@@ -232,8 +232,6 @@ Este módulo introduce el uso correcto de los **casts en C++98**, la conversión
 
 </details>
 
----
-
 #### [CPP-07](https://github.com/loreeue/Cpps) - 90/100
 
 Este módulo introduce el uso de **templates en C++98**, permitiendo escribir código genérico y reutilizable sin sacrificar seguridad de tipos. Se trabajan **funciones template**, **templates de clases**, y la correcta gestión de memoria y excepciones en estructuras genéricas, respetando la forma canónica ortodoxa.
@@ -251,8 +249,6 @@ Este módulo introduce el uso de **templates en C++98**, permitiendo escribir c�
   Implementación de una **clase template `Array<T>`**, con gestión dinámica de memoria usando `new[]`, copia profunda, operador `[]` con control de límites mediante excepciones, y método `size()`. Se refuerza el diseño seguro de contenedores genéricos sin usar STL.
 
 </details>
-
----
 
 #### [CPP-08](https://github.com/loreeue/Cpps) - 100/100
 
