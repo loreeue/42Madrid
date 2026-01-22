@@ -267,3 +267,35 @@ Este módulo introduce el uso real de la **STL (Standard Template Library)** en 
   Clase template que hereda de `std::stack` y mantiene su comportamiento LIFO, añadiendo la posibilidad de iterar sobre sus elementos. Expone los iteradores del contenedor interno y permite recorrer la pila como un contenedor STL estándar, comparando su comportamiento con `std::list`.
 
 </details>
+
+#### [CPP-09](https://github.com/loreeue/Cpps) - 100/100
+
+Este módulo consolida el uso avanzado de la **STL en C++98**, combinando **contenedores**, **algoritmos**, **iteradores** y **medición de rendimiento**. Se hace especial hincapié en la correcta elección de estructuras de datos, la validación de entradas y el diseño eficiente de algoritmos.
+
+<details>
+<summary><strong>Ejercicios</strong></summary>
+
+* **Bitcoin Exchange (ex00):**
+  Programa que calcula el valor de una cantidad de bitcoin en una fecha determinada usando una base de datos CSV.
+  Se trabaja con **mapas ordenados**, parsing robusto de fechas, validación de entradas (`float`, rangos válidos), y búsqueda de la **fecha más cercana inferior** cuando no existe coincidencia exacta.
+  Se refuerza el manejo de errores y el uso correcto de contenedores asociativos.
+
+* **Reverse Polish Notation (ex01):**
+  Evaluador de expresiones matemáticas en **notación polaca inversa (RPN)**.
+  Uso de un contenedor tipo **stack** para procesar operandos y operadores (`+ - * /`), validación estricta de la expresión y gestión de errores en tiempo de ejecución.
+  No se permiten paréntesis ni números decimales.
+
+* **PmergeMe (ex02):**
+  Implementación del algoritmo **Ford-Johnson (merge-insert sort)** para ordenar secuencias de enteros positivos.
+  Se utilizan **dos contenedores distintos** para comparar rendimiento, mostrando el tiempo de ejecución de cada uno con precisión suficiente para apreciar diferencias.
+  El programa gestiona secuencias de al menos **3000 elementos**, mide tiempos y muestra el antes/después del ordenado.
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>🎯 MILESTONE 06</strong></summary>
+
+
+</details>
