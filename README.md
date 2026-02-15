@@ -45,9 +45,9 @@ Desafío algorítmico basado en la ordenación de números utilizando dos pilas.
 
 Programa que replica el comportamiento de las **pipes** en la terminal. Utiliza `fork` y `exec` para la creación de procesos y la manipulación de la redirección de entrada/salida.
 
-#### [Fract-ol](https://github.com/loreeue/Fract-ol) - 110/100 - En proceso de hacer la parte bonus
+#### [Fract-ol](https://github.com/loreeue/Fract-ol) - 125/100
 
-Exploración visual de fractales usando **MiniLibX**. Soporta Mandelbrot y Julia, con navegación interactiva y zoom dinámico.
+Exploración visual de fractales usando **MiniLibX**. Soporta Mandelbrot, Julia y Burningship, con navegación interactiva y zoom dinámico.
 
 </details>
 
@@ -291,6 +291,8 @@ Este módulo consolida el uso avanzado de la **STL en C++98**, combinando **cont
   El programa gestiona secuencias de al menos **3000 elementos**, mide tiempos y muestra el antes/después del ordenado.
 
 </details>
+
+
 
 </details>
 
