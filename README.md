@@ -299,5 +299,10 @@ Este módulo consolida el uso avanzado de la **STL en C++98**, combinando **cont
 <details>
 <summary><strong>🎯 MILESTONE 06</strong></summary>
 
+#### [Collaborative Resume](https://github.com/loreeue/42_collaborative_resume) - 100/100
+
+Proyecto enfocado en el desarrollo de habilidades de **comunicación profesional y entrevista técnica**, realizado en pareja.
+
+Cada integrante asumió los roles de entrevistador y candidato, realizando una entrevista estructurada y redactando el currículum profesional del compañero.
 
 </details>
